@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.attribution {
+    margin-top: 10px;
+     font-size: 11px; 
+     text-align: center; }
+.attribution a {
+     color: hsl(228, 45%, 44%); }
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+.container, .container ul{
+    display: flex;    
+}
+#Preview{
+    letter-spacing:3px;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(./images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    width: 38.46%;
+    height: 75vh;
+    margin-left: 30.76%;
+    margin-top: 10vh;
+}
+.discribitoin{
+    width: 50%;
+    height: 100%;
+}
+#icon{
+    width: 10%;
+    height: 40%;
+}
+button{
+    width: 80%;
+    height:10%;
+    border-radius: 10px;
+    background-color:hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+}
+button:hover{
+    background-color: hsl(138, 88%, 10%);
+    
+}
+.container .discribitoin{
+    margin-left: 50%;
+    font-family:'Montserrat';
+    padding: 0 5%;
+    font-size: 0.875em;
+}
+#Gabrielle{
+    margin-right: 8%;
+}
+h1{
+    font-family:none;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+}
+p{
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+ul{
+    padding-left: 0px;
+    list-style-type: none;
+}
+ul li p {
+    text-decoration:line-through;
+    align-items: center;
+    padding: 15px;
+}
+ul li h1{
+    color: green;
+}
+
+
+@media( max-width:375px){
+    .container{
+        min-height:100vh;;
+        margin:  0 auto;
+        margin-top: 5%;
+        width: 90%;
+        background-image: url(./images/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 30vh;
+    }
+   .container .discribitoin{
+        width: 100%;
+        height: 50%;
+        margin-top: 34vh;
+        margin-left: 0;
+    }
+
+}
+
